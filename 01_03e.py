@@ -5,7 +5,7 @@ def main():
     sales_this_week = Counter(STA001=5, SAL002=3,ENT004=3)
     inventory = inventory - sales_this_week
     print(inventory)
-    inventory_in = {"STA001":9, "SAL002": 1}
+    inventory_in = {"STA001":9, "ENT004": 1}
     inventory.update(inventory_in)
     print(inventory) 
 
